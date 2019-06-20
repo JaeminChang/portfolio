@@ -6,7 +6,7 @@ class Education extends React.Component {
     return (
       <Grid>
         <Cell col={3}>
-          <p>
+          <p style={{ fontSize: "large" }}>
             {this.props.startYear} - {this.props.endYear}
           </p>
         </Cell>

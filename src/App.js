@@ -13,30 +13,6 @@ class App extends React.Component {
       <div className="app-body">
         <NavBar />
         <div>
-          {/* <Route
-            render={({ location }) => (
-              <div>
-                <Route
-                  exact
-                  path="/"
-                  render={() => <Redirect to="/homePage" />}
-                />
-                <div>
-                  <TransitionGroup>
-                    <CSSTransition
-                      key={location.key}
-                      classNames="fade"
-                      timeout={1000}
-                    >
-                  <Switch location={location}>
-                  
-                  </Switch>
-                    </CSSTransition>
-                  </TransitionGroup>
-                </div>
-              </div>
-            )}
-          /> */}
           <Route exact path="/" component={HomePage} />
           <Route exact path="/projects" component={Projects} />
           <Route exact path="/resume" component={Resume} />

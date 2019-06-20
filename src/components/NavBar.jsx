@@ -5,13 +5,6 @@ import { Layout, Header, Navigation, Drawer } from "react-mdl";
 class NavBar extends React.Component {
   render() {
     return (
-      // <div>
-      //   <div className="navButton">
-      //     <NavLink to="/">HomePage</NavLink>
-      //     <br />
-      //     <NavLink to="./aboutMe">About Me</NavLink>
-      //   </div>
-      // </div>
       <div>
         <Layout>
           <Header
@@ -34,7 +27,6 @@ class NavBar extends React.Component {
               <NavLink to="./resume">My Resume</NavLink>
             </Navigation>
           </Drawer>
-          {/* <Content /> */}
         </Layout>
       </div>
     );

@@ -13,7 +13,7 @@ class Resume extends React.Component {
             col={4}
             style={{
               color: "white",
-              textShadow: "2px 2px black",
+              textShadow: "3px 3px black",
               paddingLeft: "70px"
             }}
           >
@@ -26,16 +26,16 @@ class Resume extends React.Component {
             </div>
 
             <h2>Michael Chang</h2>
-            <h4>Programmer</h4>
+            <h3>Programmer</h3>
             <hr style={{ borderTop: "3px solid white", width: "50%" }} />
-            <h5>Address</h5>
-            <p>Los Angeles, 90006</p>
-            <h5>Phone</h5>
-            <p>(213) 373-4840</p>
-            <h5>Email</h5>
-            <p>jaeminchang620@gmail.com</p>
-            <h5>Web</h5>
-            <p>https://github.com/JaeminChang</p>
+            <h4>Address</h4>
+            <h5>Los Angeles, 90006</h5>
+            <h4>Phone</h4>
+            <h5>(213) 373-4840</h5>
+            <h4>Email</h4>
+            <h5>jaeminchang620@gmail.com</h5>
+            <h4>Web</h4>
+            <h5>https://github.com/JaeminChang</h5>
             <hr style={{ borderTop: "3px solid white", width: "50%" }} />
           </Cell>
           <Cell className="resume-right-col" col={8}>
