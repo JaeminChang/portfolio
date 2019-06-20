@@ -58,11 +58,11 @@ class AboutMe extends React.Component {
                   <div className="text">
                     Integrated the instagram feature onto the websiteApi for
                     Influencers which enables the onsite rendering of an account
-                    feed and displays account statiscs for Merchant review. Also
-                    on hover of an image it will show information such as number
-                    of likes that photo has, the description of the photo and
-                    the hashtags that the user used on the post. Also designing
-                    it in a way to resemble an Instagram profile.
+                    feed and displays account statistics for Merchant review.
+                    Also on hover of an image it will show information such as
+                    number of likes that photo has, the description of the photo
+                    and the hashtags that the user used on the post. Also
+                    designing it in a way to resemble an Instagram profile.
                   </div>
                 </div>
               </div>
