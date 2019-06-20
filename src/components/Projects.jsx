@@ -6,8 +6,8 @@ import { Carousel } from "react-responsive-carousel";
 class AboutMe extends React.Component {
   render() {
     return (
-      <div className="contact-body">
-        <Grid className="contact-grid">
+      <div className="project-body">
+        <Grid className="project-grid">
           <Cell col={8}>
             <h2 style={{ color: "white", textShadow: "2px 2px black" }}>
               Projects
