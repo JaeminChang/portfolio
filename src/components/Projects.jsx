@@ -30,7 +30,6 @@ class AboutMe extends React.Component {
                   </div>
                 </div>
               </div>
-
               <div className="images">
                 <img
                   src="https://i.postimg.cc/Vv3HhZWt/dashboard.png"
@@ -48,7 +47,6 @@ class AboutMe extends React.Component {
                   </div>
                 </div>
               </div>
-
               <div className="images">
                 <img
                   src="https://i.postimg.cc/Bb9HYNZ8/instagram.png"
@@ -66,7 +64,6 @@ class AboutMe extends React.Component {
                   </div>
                 </div>
               </div>
-
               <div className="images">
                 <img
                   src="https://i.postimg.cc/jC0ZcwRQ/influencers.png"
