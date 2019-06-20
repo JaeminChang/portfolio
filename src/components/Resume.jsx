@@ -9,34 +9,31 @@ class Resume extends React.Component {
     return (
       <div className="resume-body">
         <Grid>
-          <Cell
-            col={4}
-            style={{
-              color: "white",
-              textShadow: "3px 3px black",
-              paddingLeft: "70px"
-            }}
-          >
+          <Cell col={3} className="resume-left-col">
             <div>
               <img
                 src="https://i.postimg.cc/Y0RJxN57/teatessre.png"
                 alt="avatar"
-                style={{ height: "300px", paddingTop: "50px" }}
+                style={{
+                  height: "300px",
+                  paddingTop: "4em",
+                  borderRadius: "50%"
+                }}
               />
             </div>
 
-            <h2>Michael Chang</h2>
-            <h3>Programmer</h3>
-            <hr style={{ borderTop: "3px solid white", width: "50%" }} />
-            <h4>Address</h4>
-            <h5>Los Angeles, 90006</h5>
-            <h4>Phone</h4>
-            <h5>(213) 373-4840</h5>
-            <h4>Email</h4>
-            <h5>jaeminchang620@gmail.com</h5>
-            <h4>Web</h4>
-            <h5>https://github.com/JaeminChang</h5>
-            <hr style={{ borderTop: "3px solid white", width: "50%" }} />
+            <h3>Michael Chang</h3>
+            <h4>Programmer</h4>
+            <hr style={{ borderTop: "3px solid black", width: "50%" }} />
+            <h5>Address</h5>
+            <p>Los Angeles, 90006</p>
+            <h5>Phone</h5>
+            <p>(213) 373-4840</p>
+            <h5>Email</h5>
+            <p>jaeminchang620@gmail.com</p>
+            <h5>Web</h5>
+            <p>https://github.com/JaeminChang</p>
+            <hr style={{ borderTop: "3px solid black", width: "50%" }} />
           </Cell>
           <Cell className="resume-right-col" col={8}>
             <h3>Education</h3>
@@ -46,7 +43,7 @@ class Resume extends React.Component {
               schoolName="California Baptist University"
               diploma="Christian Studies"
             />
-            <hr style={{ borderTop: "3px solid white" }} />
+            <hr style={{ borderTop: "3px solid black" }} />
             <h3>Experience</h3>
             <Experience
               startYear={2014}
@@ -72,7 +69,7 @@ class Resume extends React.Component {
               Application was developed using C#, ASP.NET, .Net Core 2.x,TFS, Visual Studio 2017, Instagram API, SignalR, Reactjs, Axios, JavaScript, Git, jQuery, AJAX, Bootstrap 4.x, CSS3, HTML5, Google Maps, T-SQL,  SQL Server 2016, SSMS 2017, Postman, Agile/Scrum Methodologies
               "
             />
-            <hr style={{ borderTop: "3px solid white" }} />
+            <hr style={{ borderTop: "3px solid black" }} />
             <h3>Skills</h3>
             <Skills skill="React.js" progress={80} />
             <Skills skill="HTML/CSS" progress={80} />

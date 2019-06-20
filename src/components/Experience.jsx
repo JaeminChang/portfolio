@@ -11,8 +11,12 @@ class Experience extends React.Component {
           </p>
         </Cell>
         <Cell col={9}>
-          <h4 style={{ marginTop: "0px" }}>{this.props.jobName}</h4>
-          <p style={{ fontSize: "large" }}>{this.props.jobDescription}</p>
+          <h4 style={{ marginTop: "0px", textAlign: "center" }}>
+            {this.props.jobName}
+          </h4>
+          <p style={{ fontSize: "medium", textAlign: "center" }}>
+            {this.props.jobDescription}
+          </p>
         </Cell>
       </Grid>
     );

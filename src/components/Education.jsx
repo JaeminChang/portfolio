@@ -10,9 +10,13 @@ class Education extends React.Component {
             {this.props.startYear} - {this.props.endYear}
           </p>
         </Cell>
-        <Cell col={8}>
-          <h4 style={{ marginTop: "0px" }}>{this.props.schoolName}</h4>
-          <p style={{ fontSize: "large" }}>{this.props.diploma}</p>
+        <Cell col={9}>
+          <h4 style={{ marginTop: "0px", textAlign: "center" }}>
+            {this.props.schoolName}
+          </h4>
+          <p style={{ fontSize: "large", textAlign: "center" }}>
+            {this.props.diploma}
+          </p>
         </Cell>
       </Grid>
     );

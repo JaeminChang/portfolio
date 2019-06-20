@@ -12,17 +12,30 @@
 }
 
 /* Resume Page css */
+.resume-left-col {
+  background: white;
+  color: black;
+  opacity: 0.9;
+  text-shadow: 2px 2px white;
+  text-align: center;
+}
+
 .resume-right-col {
-  color: white;
-  text-shadow: 2px 2px black;
+  background: white;
+  color: black;
+  text-shadow: 2px 2px white;
+  opacity: 0.7;
 }
 
 .resume-body {
-  background-image: url("https://i.postimg.cc/13YwFyF5/image.png");
-  background-size: cover;
+  padding-top: 4em;
+  background-image: url("https://i.postimg.cc/FKvhqsxn/Max-Pixel-net-Wooden-Desk-Background-Wood-Desktop-Table-Aerial-32.jpg");
   overflow: auto;
+  background-size: cover;
+  width: 100vw;
+  background-repeat: no-repeat;
   background-attachment: fixed;
-  opacity: 1;
+  padding-left: 10em;
 }
 
 /* about me css */
