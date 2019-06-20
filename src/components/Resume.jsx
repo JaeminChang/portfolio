@@ -36,7 +36,7 @@ class Resume extends React.Component {
             <hr style={{ borderTop: "3px solid black", width: "50%" }} />
           </Cell>
           <Cell className="resume-right-col" col={8}>
-            <h3>Education</h3>
+            <h3 style={{ paddingLeft: "1em" }}>Education</h3>
             <Education
               startYear={2012}
               endYear={2015}
@@ -44,7 +44,7 @@ class Resume extends React.Component {
               diploma="Christian Studies"
             />
             <hr style={{ borderTop: "3px solid black" }} />
-            <h3>Experience</h3>
+            <h3 style={{ paddingLeft: "1em" }}>Experience</h3>
             <Experience
               startYear={2014}
               endYear={2018}
@@ -70,7 +70,7 @@ class Resume extends React.Component {
               "
             />
             <hr style={{ borderTop: "3px solid black" }} />
-            <h3>Skills</h3>
+            <h3 style={{ paddingLeft: "1em" }}>Skills</h3>
             <Skills skill="React.js" progress={80} />
             <Skills skill="HTML/CSS" progress={80} />
             <Skills skill="C#" progress={60} />
